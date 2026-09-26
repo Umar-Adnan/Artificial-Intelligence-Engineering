@@ -33,7 +33,7 @@ print("=== Single Element Extraction ===")
 print(f"Tensor output: {single_value_tensor}")
 
 # CRITICAL PYTORCH METHOD: .item()
-# When you have a tensor containing only a single number, use .item() 
-# to convert it back to a standard Python float or int. 
+# When you have a tensor containing only a single number, use .item()
+# to convert it back to a standard Python float or int.
 pure_python_number = single_value_tensor.item()
 print(f"Pure Python number (.item()): {pure_python_number}")
