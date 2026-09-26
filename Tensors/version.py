@@ -1,2 +1,2 @@
-import torch as tc
-print(tc.__version__)
+import torch
+print(torch.__version__)
