@@ -9,7 +9,7 @@ weights = torch.tensor([0.5], requires_grad=True)
 optimizer = optim.SGD([weights], lr=0.1)
 
 print("\n=== PyTorch Optimizer Update ===")
-for epoch in range(3):
+for epoch in range(5):
     # 1. Forward Pass & 2. Loss
     prediction = features * weights
     loss = (prediction - target) ** 2
