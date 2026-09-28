@@ -15,7 +15,7 @@ for epoch in range(3):
     # 3. Backward
     loss.backward()
 
-    # 4. Manual Update & 5. Manual Zero Grad
+    # 4.Manual Update & 5. Manual Zero Grad
     # We MUST use torch.no_grad() here. We are modifying the weights,
     # but we don't want Autograd to track this specific mathematical step.
     with torch.no_grad():
