@@ -7,7 +7,7 @@ weights = torch.tensor([0.5], requires_grad=True)
 learning_rate = 0.1
 
 print("=== Manual Weight Update ===")
-for epoch in range(3):
+for epoch in range(5):
     # 1. Forward & 2. Loss
     prediction = features * weights
     loss = (prediction - target) ** 2
