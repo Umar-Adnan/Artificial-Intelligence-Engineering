@@ -35,3 +35,6 @@ model = SimpleClassifier()
 
 # Printing the model shows you the exact architecture and layer connections
 print(model)
+
+# Save the model's learned weights
+torch.save(model.state_dict(), "simple_classifier.pth")
