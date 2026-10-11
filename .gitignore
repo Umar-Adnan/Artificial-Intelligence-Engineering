@@ -1,0 +1,20 @@
+# PyTorch Model Weights
+*.pth
+*.pt
+
+# MNIST Dataset
+data/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE / Editor Folders
+.vscode/
+.cursor/
